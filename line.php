@@ -22,7 +22,7 @@ curl_setopt( $chOne, CURLOPT_POSTFIELDS, "message=$sendMessage");
 // follow redirects
 curl_setopt( $chOne, CURLOPT_FOLLOWLOCATION, 1);
 //ADD header array
-$headers = array( 'Content-type: application/x-www-form-urlencoded', 'Authorization: Bearer MRzsy0oB1YAUjXXZpV7ZPkwCEUilcR5PFheHTnMh3X8', );  // หลังคำว่า Bearer ใส่ line authen code ไป
+$headers = array( 'Content-type: application/x-www-form-urlencoded', 'Authorization: Bearer OHVmDzOt0zqQ8BQLAq7LpcvADd9anF04nRuDY6mTsiL', );  // หลังคำว่า Bearer ใส่ line authen code ไป
 curl_setopt($chOne, CURLOPT_HTTPHEADER, $headers);
 //RETURN
 curl_setopt( $chOne, CURLOPT_RETURNTRANSFER, 1);

@@ -36,7 +36,7 @@ const urlParams = new URLSearchParams(window.location.search);
 const retRound = urlParams.get('round');
 const retRes = urlParams.get('res');
 console.log(retRes);
-document.getElementById("lbText").innerText = "ทดสอบ ส่งหวย"+retRound + "MRzsy0oB1YAUjXXZpV7ZPkwCEUilcR5PFheHTnMh3X8";
+document.getElementById("lbText").innerText = "ทดสอบ ส่งหวย"+retRound + "OHVmDzOt0zqQ8BQLAq7LpcvADd9anF04nRuDY6mTsiL";
 }
 
 function gotoRead()
